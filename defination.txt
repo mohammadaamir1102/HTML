@@ -1,0 +1,72 @@
+<p> user for paragraph
+<pre> use for coding what type u will write same visible on screen
+<q> for quote like   "As u sow so shall you reap" will see with double quote
+<address> for address like    Basti, Turkahiya   
+
+
+HMTL page linking  by anchor tag  <a>
+<a href="https://www.google.com"> Go to chrome <a>
+
+if u want to open chrome another tab then write like this
+<a href="https://www.google.com" target="_blank"> Go to chrome </a>
+
+if u want to show the title when mouse hover then write like this
+<a href="https://www.google.com" target="_blank" title="Go to chrome"> Search </a>
+
+paragrap linking
+  <a href="#local" title="Go to chrome"> Search </a>
+  <p id ="local"> hi aamir khan</p>
+
+
+Email linking 
+ Contact us <a href="mailto:khanaamir1102@gamil.com">khanaamir1102@gmail.com</a>
+ now when we click on this mail then mail automatic open and this mail automatic written inside the to box
+
+
+ how to insert the image
+ crate a folder then store a image inside the folder then write this
+ <img src="images/image.jpg" alt="">
+ 
+ if image is not load then use can write a proper message inside the alt 
+ <img src="images/imagdfde.jpg" alt="Image loading problem because of server">
+
+ create a scrolling or moving text
+ <marquee>  but it is now deprecated
+ <marquee>This is Aamir Khan</marquee>
+
+ order list
+    <ol type="I">
+        <li>coffee</li>
+        <li>water</li>
+        <li>juice</li>
+    </ol>
+
+
+if u want make another order list inside an order list.
+
+    <ol type="I">
+            <li>coffee</li>
+            <ol>
+                <li>Capachino</li>
+                <li>Normal</li>
+                <li>Hard coffee</li>
+            </ol>
+            <li>water</li>
+            <li>juice</li>
+    </ol>
+
+by defualt it will take numeric
+
+uorder list
+
+        <ul>
+            <li></li>
+            <li>coffee</li>
+            <ul>
+                <li>Capachino</li>
+                <li>Normal</li>
+                <li>Hard coffee</li>
+            </ul>
+        </ul>
+
+discription list
